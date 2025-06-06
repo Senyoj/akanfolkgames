@@ -1,6 +1,6 @@
 
 const GamesLandingPage = () => {
-  const handleCardClick = (gameType) => {
+  const handleCardClick = (gameType: string) => {
     const path =
       gameType === "Indigenous" ? "/games/indigenous" : "/games/contemporary";
     window.location.href = path;

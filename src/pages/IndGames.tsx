@@ -2,10 +2,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Play, Info, Image } from "lucide-react";
 import { games } from "../../data/data";
+import Navbar from "@/components/Navbar";
 
 const IndGames = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <Navbar/>
       <div className="max-w-7xl mx-auto p-6 md:p-8">
         <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">
           Traditional Akan Games
@@ -135,13 +137,6 @@ const IndGames = () => {
                   {/* How to Play Tab */}
                   <TabsContent value="howto" className="p-6">
                     <div className="space-y-6">
-                      {/* <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden mb-6">
-                        <img
-                          src={game.mainImage || "/api/placeholder/800/450"}
-                          alt={`Play Mode ${game.title}`}
-                          className="w-full h-full object-cover"
-                        />
-                      </div> */}
                       <div className="space-y-4">
                         <h3 className="text-xl font-semibold text-gray-800">
                           Play Mode
@@ -160,6 +155,22 @@ const IndGames = () => {
                           ))}
                         </ol>
                       </div>
+                      {game.video && (
+                        <div className="mt-6">
+                          <h4 className="text-lg font-semibold text-gray-800 mb-4">
+                            Watch How to Play
+                          </h4>
+                          <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
+                            <iframe
+                              src={game.video}
+                              width="100%"
+                              height="100%"
+                              allow="autoplay"
+                              className="w-full h-full"
+                            ></iframe>
+                          </div>
+                        </div>
+                      )}
                     </div>
                   </TabsContent>
                 </Tabs>
