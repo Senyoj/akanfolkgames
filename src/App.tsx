@@ -11,7 +11,9 @@ import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
 // import Places from "./pages/Places.js";
 import Mltest from "./pages/Mltest.js";
-import PlaceDetail from "./components/PlaceDetail.js";
+import IndGames from "./pages/IndGames.js";
+import ContGames from "./pages/ContGames.js";
+import LocationDetail from "./components/LocationDetail.js";
 const AppLayout = () => {
   const location = useLocation();
   const validRoutes = ["/", "/games"];
@@ -23,7 +25,9 @@ const AppLayout = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/games" element={<Games />} />
-        <Route path="/locations/:id" element={<PlaceDetail />} />
+        <Route path="/games/indigenous" element={<IndGames />} />
+        <Route path="/games/contemporary" element={<ContGames />} />
+        <Route path="/locations/:id" element={<LocationDetail />} />
         <Route path="/ml" element={<Mltest />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
