@@ -27,6 +27,7 @@ const AppLayout = () => {
         <Route path="/games" element={<Games />} />
         <Route path="/games/indigenous" element={<IndGames />} />
         <Route path="/games/contemporary" element={<ContGames />} />
+        {/* <Route path="/locations/:id" element={<PlaceDetail />} /> */}
         <Route path="/locations/:id" element={<LocationDetail />} />
         <Route path="/ml" element={<Mltest />} />
         <Route path="*" element={<NotFound />} />

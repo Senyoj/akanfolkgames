@@ -258,56 +258,6 @@ export const games = [
   },
 ];
 
-export const placesData = [
-  {
-    id: "akyem",
-    title: "Akyem Abuakwa ",
-    description:
-      "The Akyem  is one of the most powerful and historical regions in Ghana, known for its rich culture and strong heritage.",
-    history:
-      "The Akyem people are part of the Akan ethnic group and have played a significant role in Ghana's history, especially during the Ashanti wars.",
-    games: [
-      "Oware (Traditional Board Game)",
-      "Ampe (Jumping Game)",
-      "Pilolo (Treasure Hunt Game)",
-    ],
-    image: "/akyem.jpg",
-    mapEmbedUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8228.626202111605!2d-0.8431897618045647!3d6.107613811392492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdec18f1caab51b%3A0x3e393242d20e89b8!2sKade!5e0!3m2!1sen!2sgh!4v1740070558767!5m2!1sen!2sgh",
-  },
-  {
-    id: "bono",
-    title: "Bono ",
-    description:
-      "The Bono  is one of the earliest Akan states, known for its deep cultural roots and contributions to Ghanaian traditions.",
-    history: "The Bono people are among the first Akan groups to establish a .",
-    games: [
-      "Dame (Strategy Board Game)",
-      "Ludu (Dice Game)",
-      "Abantu Dwa (Cultural Storytelling Game)",
-    ],
-    image: "/bono.jpg",
-    mapEmbedUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21108.761846033874!2d-2.1148203559622276!3d7.744573170181487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfda9e554ecf85c9%3A0x6143f67db14a0dad!2sWenchi!5e0!3m2!1sen!2sgh!4v1740070369529!5m2!1sen!2sgh",
-  },
-  {
-    id: "asante",
-    title: "Asante ",
-    description:
-      "The Asante  was a powerful empire in West Africa, famous for its military strength, rich traditions, and the Golden Stool.",
-    history:
-      "Founded in the 17th century, the Asante  played a major role in the region's history.",
-    games: [
-      "Kpitinge (Jumping Game)",
-      "Ludu (Dice Game)",
-      "Oware (Strategy Board Game)",
-    ],
-    image: "/asante.jpg",
-    mapEmbedUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.1849538630945!2d-1.5215705072847416!3d6.747283320207312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdbc17db18c24a5%3A0xfda33ded20a19a6!2sEjisu%20Asotwe!5e0!3m2!1sen!2sgh!4v1740071549247!5m2!1sen!2sgh",
-  },
-];
-
 const contemporaryData = [
   {
     title: "Nana wo ho",
