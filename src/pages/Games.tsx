@@ -37,12 +37,9 @@ const GamesLandingPage = () => {
             <div className="relative z-10 p-8 h-80 flex flex-col justify-center items-center text-center">
               <div className="transform transition-transform duration-300 group-hover:translate-y-[-8px]">
                 <h2 className="text-4xl font-bold text-white mb-4 font-serif tracking-wide">
-                  Indigenous Games
+                  Indiginous Games
                 </h2>
-                <p className="text-lg text-gray-200 leading-relaxed mb-6 max-w-xs">
-                  Discover traditional games passed down through generations,
-                  celebrating cultural heritage and ancient wisdom.
-                </p>
+
                 <div className="flex items-center justify-center text-amber-300 font-semibold group-hover:text-amber-200 transition-colors">
                   <span>Explore Heritage</span>
                   <svg
@@ -78,10 +75,7 @@ const GamesLandingPage = () => {
                 <h2 className="text-4xl font-bold text-white mb-4 font-sans tracking-wide">
                   Contemporary Games
                 </h2>
-                <p className="text-lg text-gray-200 leading-relaxed mb-6 max-w-xs">
-                  Experience modern gaming innovations with cutting-edge
-                  technology and immersive digital experiences.
-                </p>
+
                 <div className="flex items-center justify-center text-cyan-300 font-semibold group-hover:text-cyan-200 transition-colors">
                   <span>Enter the Future</span>
                   <svg

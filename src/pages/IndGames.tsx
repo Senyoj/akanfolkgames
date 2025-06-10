@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 const IndGames = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar/>
+      <Navbar />
       <div className="max-w-7xl mx-auto p-6 md:p-8">
         <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">
           Traditional Akan Games
@@ -46,7 +46,7 @@ const IndGames = () => {
                 <Tabs defaultValue="overview" className="w-full">
                   {/* Tabs Navigation */}
                   <div className="bg-gray-100 p-4">
-                    <TabsList className="grid w-full grid-cols-3">
+                    <TabsList className="grid w-full grid-cols-4">
                       <TabsTrigger
                         value="overview"
                         className="flex items-center gap-2"
@@ -67,6 +67,13 @@ const IndGames = () => {
                       >
                         <Play className="w-4 h-4" />
                         Play Mode
+                      </TabsTrigger>
+                      <TabsTrigger
+                        value="aesthetics"
+                        className="flex items-center gap-2"
+                      >
+                        {/* < className="w-4 h-4" /> */}
+                        Aesthetics
                       </TabsTrigger>
                     </TabsList>
                   </div>
@@ -172,6 +179,26 @@ const IndGames = () => {
                         </div>
                       )}
                     </div>
+                  </TabsContent>
+                  <TabsContent value="aesthetics" className="p-6">
+                    {game.aesthetics && game.aesthetics.length > 0 ? (
+                      <div className="space-y-4">
+                        {game.aesthetics.map((aesthetic, index) => (
+                          <p
+                            key={index}
+                            className="text-xl font-medium text-gray-700"
+                          >
+                            {aesthetic}
+                          </p>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="text-center py-8">
+                        <p className="text-gray-500">
+                          No aesthetic information available for this game.
+                        </p>
+                      </div>
+                    )}
                   </TabsContent>
                 </Tabs>
               </CardContent>
