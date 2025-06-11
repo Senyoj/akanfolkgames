@@ -58,12 +58,11 @@ const Navbar = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-white shadow-lg rounded-lg mt-2 text-black w-64 py-3">
               {locations.map((location) => (
-                <DropdownMenuItem
-                  key={location.id}
-                  className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer"
-                >
-                  <Link to={`/locations/${location.id}`}>{location.label}</Link>
-                </DropdownMenuItem>
+                <Link to={`/locations/${location.id}`} key={location.id}>
+                  <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
+                    {location.label}
+                  </DropdownMenuItem>
+                </Link>
               ))}
             </DropdownMenuContent>
           </DropdownMenu>
@@ -95,7 +94,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-black bg-opacity-85 backdrop-blur-2xl text-white absolute w-full min-h-screen overflow-y-auto z-50"> 
+        <div className="md:hidden bg-black bg-opacity-85 backdrop-blur-2xl text-white absolute w-full min-h-screen overflow-y-auto z-50">
           <nav>
             <ul className="flex flex-col gap-4 px-5 py-4">
               {navlinks.map((link, index) => (
@@ -121,14 +120,15 @@ const Navbar = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-white shadow-lg rounded-lg mt-2 text-black w-64 py-3">
                 {locations.map((location) => (
-                  <DropdownMenuItem
+                  <Link
+                    to={`/locations/${location.id}`}
                     key={location.id}
-                    className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer"
+                    onClick={() => setIsOpen(false)}
                   >
-                    <Link to={`/locations/${location.id}`}>
+                    <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
                       {location.label}
-                    </Link>
-                  </DropdownMenuItem>
+                    </DropdownMenuItem>
+                  </Link>
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
