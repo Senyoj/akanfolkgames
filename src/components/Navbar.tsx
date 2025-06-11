@@ -27,6 +27,10 @@ const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
+  function setCurrentLocationId(id: string): void {
+    throw new Error("Function not implemented.");
+  }
+
   return (
     <>
       <div className="flex items-center justify-between p-5 md:px-10 lg:px-20 bg-black text-white">
@@ -123,7 +127,7 @@ const Navbar = () => {
                   <Link
                     to={`/locations/${location.id}`}
                     key={location.id}
-                    onClick={() => setIsOpen(false)}
+                    onClick={() => setCurrentLocationId(location.id)}
                   >
                     <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
                       {location.label}

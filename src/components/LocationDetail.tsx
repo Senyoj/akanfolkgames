@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
+import { useParams } from "react-router-dom";
 
 const placesData = [
   {
@@ -92,20 +93,31 @@ const placesData = [
 ];
 
 const LocationDetail = () => {
+  const { id } = useParams<{ id: string }>(); // Get the location id from the URL
+  const location = placesData.find((place) => place.id === id);
+
   const [currentLocationId, setCurrentLocationId] = useState("akyem");
   const [isMapLoaded, setIsMapLoaded] = useState(false);
 
-  const location = placesData.find((place) => place.id === currentLocationId);
-
   if (!location) {
-    setCurrentLocationId("akyem");
-    return null;
+    return (
+      <>
+        <Navbar />
+        <div className="p-10 text-center text-xl text-red-600">
+          Location not found.
+        </div>
+      </>
+    );
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Navigation Tabs */}
-     <Navbar/>
+      <Navbar />
 
       {/* Hero Section */}
       <div
