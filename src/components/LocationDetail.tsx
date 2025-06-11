@@ -96,7 +96,7 @@ const LocationDetail = () => {
   const { id } = useParams<{ id: string }>(); // Get the location id from the URL
   const location = placesData.find((place) => place.id === id);
 
-  const [currentLocationId, setCurrentLocationId] = useState("akyem");
+  const [setCurrentLocationId] = useState("akyem");
   const [isMapLoaded, setIsMapLoaded] = useState(false);
 
   if (!location) {
