@@ -5,11 +5,11 @@ import { useParams } from "react-router-dom";
 const placesData = [
   {
     id: "akyem",
-    title: "Akyem Abuakwa Kingdom",
+    title: "Akyem Abuakwa ",
     description:
-      "The Akyem Kingdom is one of the most powerful and historical regions in Ghana, known for its rich culture and strong heritage.",
+      "The Akyem  is one of the most powerful and historical regions in Ghana, known for its rich culture and strong heritage.",
     history:
-      "The Akyem people are part of the Akan ethnic group and have played a significant role in Ghana's history, especially during the Ashanti wars. The kingdom was known for its fierce warriors and rich traditions that have been preserved for centuries.",
+      "The Akyem people are part of the Akan ethnic group and have played a significant role in Ghana's history, especially during the Ashanti wars. The  was known for its fierce warriors and rich traditions that have been preserved for centuries.",
     games: [
       "Oware (Traditional Board Game)",
       "Ampe (Jumping Game)",
@@ -34,11 +34,11 @@ const placesData = [
   },
   {
     id: "bono",
-    title: "Bono Kingdom",
+    title: "Bono ",
     description:
-      "The Bono Kingdom is one of the earliest Akan states, known for its deep cultural roots and contributions to Ghanaian traditions.",
+      "The Bono  is one of the earliest Akan states, known for its deep cultural roots and contributions to Ghanaian traditions.",
     history:
-      "The Bono people are among the first Akan groups to establish a kingdom. Their influence is seen in the early trade networks and architectural designs of their settlements. They were pioneers in gold mining and trade, establishing routes that connected the forest regions to the northern territories.",
+      "The Bono people are among the first Akan groups to establish a . Their influence is seen in the early trade networks and architectural designs of their settlements. They were pioneers in gold mining and trade, establishing routes that connected the forest regions to the northern territories.",
     games: [
       "Dame (Strategy Board Game)",
       "Ludu (Dice Game)",
@@ -63,11 +63,11 @@ const placesData = [
   },
   {
     id: "asante",
-    title: "Asante Kingdom",
+    title: "Asante ",
     description:
-      "The Asante Kingdom was a powerful empire in West Africa, famous for its military strength, rich traditions, and the Golden Stool.",
+      "The Asante  was a powerful empire in West Africa, famous for its military strength, rich traditions, and the Golden Stool.",
     history:
-      "Founded in the 17th century, the Asante Kingdom played a major role in the region's history, dominating trade routes and resisting British colonial forces. The kingdom is renowned for its sophisticated political system, military organization, and rich cultural heritage centered around the Golden Stool.",
+      "Founded in the 17th century, the Asante  played a major role in the region's history, dominating trade routes and resisting British colonial forces. The  is renowned for its sophisticated political system, military organization, and rich cultural heritage centered around the Golden Stool.",
     games: [
       "Kpitinge (Jumping Game)",
       "Ludu (Dice Game)",
@@ -273,7 +273,7 @@ const LocationDetail = () => {
         <div className="mt-16 bg-gradient-to-r from-gray-600 to-gray-800 rounded-lg p-8 text-center text-white">
           <h3 className="text-3xl font-bold mb-4">Explore More Cultures</h3>
           <p className="text-xl mb-6">
-            Discover the rich heritage of other Ghanaian kingdoms
+            Discover the rich heritage of other Ghanaian s
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {placesData
