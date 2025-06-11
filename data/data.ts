@@ -335,23 +335,24 @@ export const games = [
 ];
 const contemporaryData = [
   {
-    title: "Nana wo ho",
+    title: "Nana wɔ hɔ?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "“Nana wɔ hɔ?” is an indigenous Akan game that represents a rich cultural ideology involving four distinct villages and natural landmarks like rivers (Asuo, Biremu) and a mountain (Bepɔ). Played in pairs, it features a call-and-response structure where one player seeks aid from 'Nana' and the other responds. It builds critical thinking, pattern recognition, and appreciation for natural features and traditional values. The game reflects on elder wisdom, spatial awareness, and enhances memory and decision-making.",
     mainImage: "/main_nanawooho.png",
     images: ["/nanawooho-1.jpg", "/nanawooho-2.jpg", "/nanawooho-3.jpg"],
     video:
       "https://drive.google.com/file/d/14g95n_Ii_gqpmdFwZL13gADxtrcg-hhB/preview",
     howToPlay: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse",
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia",
+      "Played in pairs; one is 'Nana', the other makes the call.",
+      "Draw four landmark patterns on a surface (representing rivers and mountains).",
+      "The caller initiates with 'Nana wɔ hɔ?', to which Nana responds 'Aane'.",
+      "The caller must select a 'child' (pebble or stick) and land on it accurately.",
+      "The caller must name the landmark correctly when reached or lose a point.",
     ],
-    players: "4 or more players",
-    region: "Akan, Ghana",
-    setting: "Outdoor/Indoor",
+    players: "2 or more players (in pairs)",
+    region:
+      "Akan, Ghana (Adanse, Ahanta, Akyem, Asante, Akuapem, Bono, Fante, Kwahu, Nzema, Twifo, Sehwi)",
+    setting: "Indoor or outdoor; day or night",
     ageGroup: "All ages",
   },
   {
@@ -438,17 +439,17 @@ const contemporaryData = [
   {
     title: "Ampe",
     description:
-      "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+      "Ampe is a vibrant and energetic traditional Ghanaian game played primarily by girls. It involves clapping, jumping, and rhythmic leg movements. Ampe is a symbol of culture, childhood joy, and community bonding, requiring no special equipment—just agility, coordination, and enthusiasm.",
     mainImage: "/main_ampe.png",
     images: ["/ampe-1.jpg", "/ampe-2.jpg", "/ampe-3.jpg"],
     video:
       "https://drive.google.com/file/d/1F80Cc_88W-TxTFcFZDc7gEcD5g0_OzKJ/preview",
     howToPlay: [
-      "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet",
-      "Consectetur, adipisci velit, sed quia non numquam eius modi",
-      "Tempora incidunt ut labore et dolore magnam aliquam quaerat",
-      "Voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem",
-      "Ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi",
+      "Two players face each other and clap once to start.",
+      "Both jump simultaneously, each thrusting one foot forward.",
+      "If both players land with the same foot forward, the leader scores a point.",
+      "If the feet do not match, the opponent becomes the leader.",
+      "The game continues until a player reaches the agreed number of points (e.g., 10).",
     ],
     players: "2+ players",
     region: "Ghana",
