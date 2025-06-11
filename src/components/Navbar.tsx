@@ -95,7 +95,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-black bg-opacity-85 backdrop-blur-2xl text-white absolute w-full">
+        <div className="md:hidden bg-black bg-opacity-85 backdrop-blur-2xl text-white absolute w-full min-h-screen overflow-y-auto z-50"> 
           <nav>
             <ul className="flex flex-col gap-4 px-5 py-4">
               {navlinks.map((link, index) => (
