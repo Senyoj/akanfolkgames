@@ -27,7 +27,7 @@ const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  function setCurrentLocationId(): void {
+  function setCurrentLocationId(id: string): void {
     throw new Error("Function not implemented.");
   }
 
