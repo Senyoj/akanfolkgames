@@ -30,7 +30,7 @@ const items = [
   {
     title: "Ampe",
     description:
-      " Ampe is a folk game involving two or more female teams. Each team chooses either Ohyiwa or Opare. It involves jumping, clapping, and singing, with the winner declared when more selected choices occur. Played during leisure hours, simple songs require critical play to avoid cheating.",
+      " Ampe is a folk game involving two or more female teams. Each team chooses either Ohyiwa or Opare. It involves jumping, clapping, and singing, with the winner declared when more selected choices occur. Played during leisure hours, simple song and requires intensive observation to avoid cheating.",
   },
   {
     title: "Karikokoo",

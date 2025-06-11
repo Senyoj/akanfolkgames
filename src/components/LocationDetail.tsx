@@ -5,11 +5,11 @@ import { useParams } from "react-router-dom";
 const placesData = [
   {
     id: "akyem",
-    title: "Akyem Abuakwa ",
+    title: "Akyem Abuakwa State ",
     description:
       "The Akyem  is one of the most powerful and historical regions in Ghana, known for its rich culture and strong heritage.",
     history:
-      "The Akyem people are part of the Akan ethnic group and have played a significant role in Ghana's history, especially during the Ashanti wars. The  was known for its fierce warriors and rich traditions that have been preserved for centuries.",
+      "The Akyem people are part of the Akan ethnic group and have played a significant role in Ghana's history, especially during the european trade network. The  was known for its fierce warriors and rich traditions that have been preserved for centuries.",
     games: [
       "Oware (Traditional Board Game)",
       "Ampe (Jumping Game)",
@@ -22,19 +22,20 @@ const placesData = [
     culturalPractices: [
       "Traditional Adinkra symbols in art and clothing",
       "Sacred forest preservation",
-      "Annual Yam Festival celebrations",
+      "Annual Ohum Festival celebrations",
       "Traditional drumming and dancing ceremonies",
     ],
     landmarks: [
       "Kyebi Palace - Seat of the Okyenhene",
-      "Akyem Sacred Grove",
+      "Akyem Sacred Grove and mineral deposits",
       "Traditional Craft Centers",
       "Historical Battle Sites",
+      "Surrender by river brim",
     ],
   },
   {
     id: "bono",
-    title: "Bono ",
+    title: "Bono Kingdom ",
     description:
       "The Bono  is one of the earliest Akan states, known for its deep cultural roots and contributions to Ghanaian traditions.",
     history:
@@ -63,7 +64,7 @@ const placesData = [
   },
   {
     id: "asante",
-    title: "Asante ",
+    title: "Asante State ",
     description:
       "The Asante  was a powerful empire in West Africa, famous for its military strength, rich traditions, and the Golden Stool.",
     history:
