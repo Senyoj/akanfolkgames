@@ -332,8 +332,6 @@ export const games = [
       "Supports learning in mathematics by introducing concepts like geometry, physics, and probability.",
     ],
   },
-];
-const contemporaryData = [
   {
     title: "Nana wɔ hɔ?",
     description:
@@ -457,5 +455,6 @@ const contemporaryData = [
     ageGroup: "All ages",
   },
 ];
+// const contemporaryData = [];
 
 export default contemporaryData;
