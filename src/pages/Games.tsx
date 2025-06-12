@@ -24,7 +24,7 @@ const GamesLandingPage = () => {
 
       {/* Main Content Layer */}
       <div className="relative z-20 min-h-screen flex items-center justify-center p-8">
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl w-full">
+        <div className=" max-w-6xl w-full">
           {/* Indigenous Games Card */}
           <div
             onClick={() => handleCardClick("Indigenous")}
@@ -62,40 +62,6 @@ const GamesLandingPage = () => {
           </div>
 
           {/* Contemporary Games Card */}
-          <div
-            onClick={() => handleCardClick("Contemporary")}
-            className="group relative overflow-hidden rounded-2xl cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl bg-gradient-to-br from-cyan-900/20 to-blue-800/20 backdrop-blur-sm border border-cyan-500/30"
-          >
-            {/* Card Inner Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-
-            {/* Card Content */}
-            <div className="relative z-10 p-8 h-80 flex flex-col justify-center items-center text-center">
-              <div className="transform transition-transform duration-300 group-hover:translate-y-[-8px]">
-                <h2 className="text-4xl font-bold text-white mb-4 font-sans tracking-wide">
-                  Contemporary Games
-                </h2>
-
-                <div className="flex items-center justify-center text-cyan-300 font-semibold group-hover:text-cyan-200 transition-colors">
-                  <span>Enter the Future</span>
-                  <svg
-                    className="w-5 h-5 ml-2 transform transition-transform group-hover:translate-x-2"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Hover Effect Border */}
-            <div className="absolute inset-0 border-2 border-transparent group-hover:border-cyan-400/60 rounded-2xl transition-all duration-300" />
-          </div>
         </div>
       </div>
 
