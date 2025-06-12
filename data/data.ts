@@ -455,6 +455,3 @@ export const games = [
     ageGroup: "All ages",
   },
 ];
-// const contemporaryData = [];
-
-export default contemporaryData;
