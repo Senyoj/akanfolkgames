@@ -60,8 +60,6 @@ const GamesLandingPage = () => {
             {/* Hover Effect Border */}
             <div className="absolute inset-0 border-2 border-transparent group-hover:border-amber-400/60 rounded-2xl transition-all duration-300" />
           </div>
-
-          {/* Contemporary Games Card */}
         </div>
       </div>
 

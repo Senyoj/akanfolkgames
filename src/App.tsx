@@ -9,10 +9,7 @@ import NotFound from "./pages/NotFound.js";
 import Games from "./pages/Games.js";
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
-// import Places from "./pages/Places.js";
-import Mltest from "./pages/Mltest.js";
 import IndGames from "./pages/IndGames.js";
-import ContGames from "./pages/ContGames.js";
 import LocationDetail from "./components/LocationDetail.js";
 const AppLayout = () => {
   const location = useLocation();
@@ -26,9 +23,7 @@ const AppLayout = () => {
         <Route path="/" element={<Home />} />
         <Route path="/games" element={<Games />} />
         <Route path="/games/indigenous" element={<IndGames />} />
-        <Route path="/games/contemporary" element={<ContGames />} />
         <Route path="/locations/:id" element={<LocationDetail />} />
-        <Route path="/ml" element={<Mltest />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       {showNavigation && <Footer />}

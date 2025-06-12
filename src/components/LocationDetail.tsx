@@ -30,7 +30,7 @@ const placesData = [
       "Akyem Sacred Grove and mineral deposits",
       "Traditional Craft Centers",
       "Historical Battle Sites",
-      "Surrender by river brim",
+      "Surrendered by River Birim",
     ],
   },
   {

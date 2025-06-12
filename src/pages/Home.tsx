@@ -34,7 +34,7 @@ const Home = () => {
             land is the Akan people, whose dynamic folk games are a joyful
             expression of identity and unity. These games are more than just
             play—they carry the heartbeat of Akan culture, connecting
-            generations through  music, and Dance.
+            generations through music, and Dance.
           </p>
           {/* <Button className="flex bg-white shadow-xl rounded-3xl border justify-center items-center py-6 mt-4 hover:bg-white">
             <div className="flex gap-3 items-center bg-gradient-to-r from-[#000000] to-[#FAC70A] bg-clip-text text-transparent ">
@@ -95,9 +95,9 @@ const Home = () => {
               and patience through playful competition. The Akan folk games are
               embeded with asthetics which shape the quality of people's lives,
               Hence demostrating critical thinking to solve problems that
-              emanates in the society. These folk games are
-              essential aspects of Akan identity, celebrated at festivals,
-              schools, and homes across Ghana
+              emanates in the society. These folk games are essential aspects of
+              Akan identity, celebrated at festivals, schools, and homes across
+              Ghana
             </p>
           </div>
           <div>
